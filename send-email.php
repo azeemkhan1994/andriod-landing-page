@@ -22,9 +22,9 @@ try {
 
     //Recipients
     $mail->setFrom('info@pebtechsolutions.com');
-    // $mail->addAddress('rashid.latif@pebtechsolutions.com');     // Add a recipient
-    // $mail->addAddress('khurram.khan@pebtechsolutions.com');
-    $mail->addAddress('azeem.khan@pebtechsolutions.com');     // Add a recipient
+     $mail->addAddress('rashid.latif@pebtechsolutions.com');     // Add a recipient
+     $mail->addAddress('khurram.khan@pebtechsolutions.com');
+     $mail->addAddress('marketing@pebtechsolutions.com');     // Add a recipient
 
 
 
