@@ -709,6 +709,21 @@ header {
     vertical-align: text-bottom;
 }
 
+.text-green {
+    color: #69BC45;
+}
+
+.loading {
+    background-color: #fff;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*  FOOTER
 ----------------------*/

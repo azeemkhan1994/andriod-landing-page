@@ -140,6 +140,12 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px 30%" data-bs-smooth-scroll="true">
 
+    <div class="loading" id="loading-spinner">
+        <div class="spinner-border text-green" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
     <div class="nav-menu fixed-top">
         <div class="container">
             <div class="row">
@@ -848,6 +854,13 @@
             autoplay: {
                 delay: 2000,
             },
+        });
+    </script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM fully loaded and parsed');
+            $('#loading-spinner').css({ display: 'none' });
         });
     </script>
 
